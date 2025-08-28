@@ -31,7 +31,7 @@ npm run build
 ### Docker
 ```bash
 # Запуск через Docker Compose
-docker-compose up -d
+docker compose up -d
 ```
 
 Приложение будет доступно по адресу `http://localhost:4000`
