@@ -1,0 +1,36 @@
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 34px;
+	padding: 0px 15px;
+	transition: .3s all;
+	border: none;
+	color: #818c99;
+	border-radius: 4px;
+	background: #eee;
+	font-size: 14px;
+}
+.button.active {
+	background: #f7ba03;
+	color: #333;
+}
+
+
+@media (hover: hover) {
+    .button {
+        &:hover {
+            background: #f7ba03;
+            color: #333;
+        }
+    }
+}
+
+@media (hover: none) {
+    .button {
+        &:active {
+            background: #f7ba03;
+            color: #333;
+        }
+    }
+}
